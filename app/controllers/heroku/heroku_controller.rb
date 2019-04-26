@@ -1,4 +1,4 @@
-class Heroku::HerokuController < ApplicationController
+class HerokuController < ApplicationController
   def index
   end
 end
