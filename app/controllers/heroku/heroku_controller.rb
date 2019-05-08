@@ -1,5 +1,5 @@
 class HerokuController < ApplicationController
   def index
-    @test = salesforce.project__c.find(params[:id])
+    @test = SELECT * FROM salesforce.project__c;
   end
 end
