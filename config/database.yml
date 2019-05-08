@@ -27,4 +27,4 @@ test:
 production:
   <<: *default
   # database: db/production.sqlite3
-  url: postgres://hdslxwevjwmbat:50ff512ad9769aaca32b988325afe0dd2e582e50285e3e4202276a9b01e82a4e@ec2-54-197-234-117.compute-1.amazonaws.com:5432/d446gh7mpbb0am
+  url: <%= ENV['DATABASE_URL'] %>
